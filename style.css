@@ -1,0 +1,84 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.8fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "logo logo logo"
+      "banner banner banner"
+      "body body body";
+  }
+  
+.logo { display: grid;
+    justify-content: center;
+    margin-top: 15px;
+    grid-area: logo; 
+    }
+
+ 
+.banner-text {
+        color: white;
+        font-family: Georgia;
+        font-size: 70px;
+        font-weight: bold;
+        position: absolute;
+        top: 15%;
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+        line-height: 1.1;
+}
+
+.banner-description {
+    color: white;
+    font-family: Georgia;
+    font-size: 25px;
+    position: absolute;
+    bottom: 40%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    bottom: 20%;
+    padding-left: 32%;
+    padding-right: 32%;
+}
+
+.btn-lg {
+    font-size: 30px;
+    width:200%;
+}
+
+
+.banner { display: grid;
+    grid-area: banner;
+    align-items: center;
+    filter:brightness(80%);
+}
+  
+  .body {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: center;
+    grid-template-areas:
+      "text text text"
+      "box-1 box-2 box-3"
+      "contact contact contact";
+    grid-area: body;
+  }
+  
+  .text { grid-area: text; }
+  
+  .box-1 { grid-area: box-1; }
+  
+  .box-2 { grid-area: box-2; }
+  
+  .box-3 { grid-area: box-3; }
+  
+  .contact { grid-area: contact; }
+  
