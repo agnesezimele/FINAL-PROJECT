@@ -21,8 +21,8 @@
         font-size: 70px;
         font-weight: bold;
         position: absolute;
-        top: 15%;
         text-align: center;
+        top:25%;
         padding-left: 15%;
         padding-right: 15%;
         line-height: 1.1;
@@ -33,7 +33,7 @@
     font-family: Georgia;
     font-size: 25px;
     position: absolute;
-    bottom: 40%;
+    bottom: 35%;
     padding-left: 15%;
     padding-right: 15%;
     text-align: center;
@@ -41,7 +41,7 @@
 
 .button {
     position: absolute;
-    bottom: 18%;
+    bottom: 10%;
     inline-size: 13%;
     margin-left: 475px;
 }
@@ -56,9 +56,9 @@
     grid-area: banner;
     align-items: center;
     max-width: 100%;
-    filter:brightness(90%);
     margin-bottom: 50px;
 }
+
   
   .body {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -154,10 +154,10 @@
         font-family: Georgia;
         text-align: center;
         width: 750px;
-        height: 335px;
+        height: 295px;
         bottom: 30%;
         right: 24%;
-        border: 3px solid #f1f1f1;
+        border: 3px solid grey;
         z-index: 9;
 }
 
