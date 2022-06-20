@@ -14,7 +14,6 @@
     margin-top: 15px;
     grid-area: logo; 
     }
-
  
 .banner-text {
         color: white;
@@ -42,21 +41,23 @@
 
 .button {
     position: absolute;
-    bottom: 20%;
-    padding-left: 32%;
-    padding-right: 32%;
+    bottom: 18%;
+    inline-size: 13%;
+    margin-left: 475px;
 }
 
-.btn-lg {
-    font-size: 30px;
-    width:200%;
+.btn {
+    font-family: Georgia;
+    width: 200%;
 }
 
 
 .banner { display: grid;
     grid-area: banner;
     align-items: center;
-    filter:brightness(80%);
+    max-width: 100%;
+    filter:brightness(90%);
+    margin-bottom: 50px;
 }
   
   .body {  display: grid;
@@ -72,13 +73,121 @@
     grid-area: body;
   }
   
-  .text { grid-area: text; }
+  .text { 
+      grid-area: text;
+    }
+
+  .title {
+    color: black;
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.1;
+    margin-bottom: 30px;
+  }
+
+  .description {
+    color: gray;
+    font-family: Georgia;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.1;
+  }
+
+  .body {
+      display: flexbox;
+      @media screen {
+          100%
+      }
+  }
   
-  .box-1 { grid-area: box-1; }
+  .box-1 { display:grid;
+      grid-area: box-1; 
+      background-color: rgba(245,245,245,1);
+      font-family: Georgia;
+    font-size: 18px;
+    line-height: 1.5;
+      height: 250px;
+      width: 380px;
+      margin-right: 20px;
+      text-align: center;
+      padding: 30px;
+    }
   
-  .box-2 { grid-area: box-2; }
+  .box-2 { display:grid;
+    grid-area: box-2;
+    background-color:rgba(245,245,245,1);
+    font-family: Georgia;
+    font-size: 18px;
+    line-height: 1.5;
+    height: 250px;
+    width: 380px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 30px;
+}
   
-  .box-3 { grid-area: box-3; }
+  .box-3 { display:grid;
+      grid-area: box-3; 
+      background-color:rgba(245,245,245,1);
+      font-family: Georgia;
+    font-size: 18px;
+    line-height: 1.5;
+      height: 250px;
+      width: 380px;
+      margin-right: 20px;
+      text-align: center;
+      padding: 30px;
+}
   
-  .contact { grid-area: contact; }
+  .contact { grid-area: contact; 
+        inline-size: 13%;
+        margin-top: 50px;
+        margin-right: 185px;
+        margin-bottom: 10px;
+    }
+
+.form-popup {
+        display:block;
+        position:fixed;
+        font-family: Georgia;
+        text-align: center;
+        width: 750px;
+        height: 335px;
+        bottom: 30%;
+        right: 24%;
+        border: 3px solid #f1f1f1;
+        z-index: 9;
+}
+
+.form-container {
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.form-container input[type=text] {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 10px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.send-guide { 
+        display: grid; 
+        inline-size: 13%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 28%;
+        width: 150px;
+    }
+
+.cancel-button {
+position: absolute;
+margin-right: 20%;
+}
+
+
   
