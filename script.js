@@ -18,7 +18,6 @@ function Open (){
     e.preventDefault();
   } else {
     open('https://www.dropbox.com/sh/nrj1qda2ezpqvw2/AADX85lni5frZ2UMbo5D6AXta?dl=0');
-
   }
 }
 
